@@ -1,0 +1,82 @@
+.tags-wrapper
+{
+	padding-top: 14px;
+	width:100%;
+}
+.tags-wrapper ul li
+{
+	list-style-type: none;
+	
+	float:left;
+	margin-right:3.333333333333333%; 
+	border:1px solid white;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.eighty
+{
+    width:26%;
+}
+.eightyfive
+{
+	width: 27.66666666666667%;
+}
+.fifty
+{
+	width: 16%;
+}
+.nintyeight
+{
+	width: 32.66666666666667%;
+}
+.sixtynine
+{
+	width:23%;
+}
+.tags-wrapper ul li a
+{
+	text-decoration: none;
+
+	line-height: 38px;
+	 color:#a5b3bc;
+	
+}
+.tags-wrapper ul li:hover 
+{
+	background-color: #1bbc9b;
+	border:1px solid #1bbc9b;
+	
+
+}
+.tags-wrapper ul li:hover a
+{
+	color:#ffffff;
+}
+.links-wrapper
+{
+	padding-top: 34px;
+	float: left;
+	width: 90.66666666666667%;
+}
+.links-wrapper ul li
+{
+	height: 39px;
+	border-bottom: 1px solid #25323b;
+	background: url(../images/dot.png) 0 50% no-repeat;
+}
+.links-wrapper ul li a
+{
+	padding-left: 5.882352941176471%;
+	line-height: 39px;
+	color: #a5b3bc;
+	font-size:0.9375em; 
+}
+.links-wrapper ul li:hover
+{
+	background: url(../images/dot1.png) 0 50% no-repeat;
+
+}
+.links-wrapper ul li a:hover
+{
+	color:  #1bbc9b;
+}

@@ -1,0 +1,96 @@
+.main-wrappper
+{
+	 width:100%;
+	margin:0 auto;
+}
+.header-wrapper
+{
+	width:100%;	
+	background-color: red;
+	overflow: hidden;
+
+}
+.header-top-wrapper
+{
+	width:100%;
+	height:50px;
+	/*background-color: blue;*/
+	position: fixed;
+	z-index: 2;
+
+}
+
+.menu-wrapper
+{
+	max-width: 73.25em;
+	height:20px;
+	/*background-color:white ;*/
+	background:transparent;
+	margin: 0 auto;
+    
+    
+}
+.header-logo
+{
+	float:left;
+	/*background-color:orange;*/
+	width:20%;
+	height:20px;
+}
+.header-navigation
+{
+	float:right;
+	/*background-color: green;*/
+	width:70%;
+	height: 20px;
+}
+.slider-wrapper
+{
+	height:100%;
+	width:100%;
+	margin:0 auto;
+	overflow: hidden;
+	 position:relative;
+
+}
+.slider-long
+{
+  
+ height:700px;
+  position: absolute;
+  background-color: yellow;
+ 
+
+}
+.slides
+{
+
+
+ height:700px;
+  
+  float: left;
+  
+  
+}
+.slides img
+{
+
+	float:left;
+	width:100%;
+	
+}
+/*.slider-text
+{
+	height:100px;
+	width:500px;
+	background-color: red;
+	position: absolute;
+	top:300px;
+	z-index: 4;
+}*/
+.services
+{
+	background-color: blue;
+	height:200px;
+	width:100%;
+}

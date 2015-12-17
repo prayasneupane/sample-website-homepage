@@ -1,0 +1,205 @@
+
+h2
+{
+	font-size: 0.875em  ;
+	font-family: 'Lato Bold', sans-serif;
+	font-weight: bold;
+}
+.header
+{
+	margin-left:16.48351648351648%;
+	color:solid black;
+	
+}
+
+.top-header
+{	
+	padding-top: 15px;
+}
+.bottom-header
+{
+	padding-top: 17px;
+}
+.text-wrapper
+{
+	padding-top: 20px;
+	line-height: 24px;
+	font-size: 0.875em;
+	font-family: 'Lato', sans-serif;
+
+}
+.features-header
+{
+	padding-top: 77px;
+}
+.features-text
+{
+	padding-top: 14px;
+	line-height: 24px;
+	font-size: 0.875em;
+	font-family: 'Lato', sans-serif;
+
+}
+.button
+{
+	padding-bottom: 69px;
+	padding-top: 47px;
+	
+	
+}
+.purchase
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 17px;
+	padding-right: 17px;
+	border:1px solid white;
+	border-radius: 5px;
+	font-size: 0.875em;
+	font-weight: bold;
+	color:#fffdff;
+	font-family: 'Lato', sans-serif;
+
+}
+.footer-logo
+{
+	padding-top: 82px;
+	padding-bottom: 15px;
+	float:left;
+}
+.footer-text
+{
+	line-height: 24px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	
+	float:left;
+	width: 90.66666666666667%;
+	font-size: 0.875em;
+	color:#73848c;
+	
+
+}
+.read-more
+{
+	float: left;
+	padding-top: 12px;
+	padding-bottom: 31px;
+	border-bottom: 1px solid #25323b;
+	width: 90.66666666666667%;
+}
+.link-text
+{
+	margin-left: 8px;
+	padding-top: 4px;
+	color: #1b9a7f;
+	
+}
+a
+{
+	text-decoration: none;
+}
+.subscribe
+{
+	padding-top: 29px;
+	float:left;
+	width:45.33333333333333%;
+
+}
+ .footer
+{
+	padding-top:99px;
+	padding-bottom: 21px;
+	font-size: 1.4375em;
+	color:#dcdddf
+	
+	
+
+}
+.title-blog
+{
+	padding-top: 15px;
+	width: 90.66666666666667%;
+	
+	float:left;
+	border-bottom: 1px solid #25323b;
+}
+.title
+{
+	font-size: 1em;
+	margin-top: -2px;
+	padding-bottom: 7px;
+	font-weight: bold;
+}
+.footer-div img
+{
+	float:left;
+}
+.title-blog-text
+{
+	width:74.26470588235294%;
+	float:left;
+	padding-left: 7.352941176470588%;
+	
+	
+}
+.text-blog
+{
+	line-height: 24px;
+	font-size: 0.875em;
+	color:#73848c;
+}
+
+.links
+{
+	padding-bottom: 15px;
+	font-size: 1.4375em;
+}
+.date
+{
+	padding-bottom: 9px;
+	line-height: 24px;
+}
+.contact
+{
+	padding-top: 20px;
+	padding-bottom: 13px;
+	border-bottom: 1px solid #25323b;
+}
+.contact-title
+{
+	font-size: 1.4375em;
+	
+	padding-bottom: 15px;
+	padding-top: 99px;
+	color:#dcdddf;
+}
+.office
+{
+	font-size: 1em;
+	padding-bottom: 13px;
+	font-weight: bold;
+	color:#a1afb8;
+}
+.contact-text
+{
+	font-size: 0.875em;
+	line-height: 24px;
+	color:#73848c;
+}
+.subscribe-header
+{
+	padding-left: 29.41176470588235%;
+	font-size: 1em;
+	margin-top: -3px;
+	font-weight: bolder;
+	color:#a1afb8;
+
+}
+.subscribe-text
+{	
+	padding-left: 29.41176470588235%;
+	font-size: 0.875em;
+	padding-top: 4px;
+	color:#73848c;
+}

@@ -11,11 +11,13 @@
 			<div class="header-wrapper">
 				<div class="header-top-wrapper">
 					<div class="menu-wrapper">
-							<div class="header-logo">logo</div>
-							<div class="header-navigation">navigation</div>
+							<div class="header-logo" >logo</div>
+							<div class="header-navigation" >navigation</div>
 					</div>
 				</div>
 				<div class="slider-wrapper">
+					<div class="button left" onclick="moveLeft()"><img alt="" src="images/left-arrow.png"/></div>
+					<div class="button right" onclick="moveRight()"><img alt="" src="images/right-arrow.png"/></div>
 
 					<div class="slider-long">
 						<div class="slides">
@@ -32,6 +34,11 @@
 							<div class=" slider-text"></div>
 						</div>
 						<div class="slides">
+							<img alt="#" src="images/img5.jpg"/>
+							<div class=" slider-text"></div>
+						</div>
+						
+						<div class="slides">
 							<img alt="#" src="images/img1.jpg"/>
 							<div class=" slider-text"></div>
 						</div>	
@@ -44,34 +51,7 @@
 			<div class="services">abcd</div>
 		 </div>
 		 <script src="animator.js"></script>
-		 <script type="text/javascript">		 
-		 var screenWidth=window.innerWidth;
-		 var sliderWrapper=document.getElementsByClassName("slider-wrapper")[0];
-		 var sliderLong=document.getElementsByClassName("slider-long")[0];
-		 var slides=document.getElementsByClassName("slides");
-		 sliderLong.style.width=(100*slides.length)+'%';
-		 
-		 var percent=100/slides.length +'%';
-		 
-		 var screenHeight=window.innerHeight;
-		 sliderWrapper.style.height=screenHeight+'px';
-		 
-		 			slides[0].style.width=percent;
-			slides[1].style.width=percent;
-			slides[2].style.width=percent;
-			slides[3].style.width=percent;
-			var i=0;
-			var animator=new Animator(sliderLong);
-			function move()
-			{	if(i>2) i=0;
-				 var sliderLong=document.getElementsByClassName("slider-long")[0];
-			     animator.animate(i);
-			     console.log(animator);
-				i++;
-				
-			}
-			setInterval(move,2000);
-		 
-		 </script> 
+		 <script src="slider.js"></script>
+		 		 
 	</body>
-	</html>
+</html>

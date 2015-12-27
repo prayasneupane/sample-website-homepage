@@ -1,6 +1,7 @@
  var screenWidth=window.innerWidth;
 		 var sliderWrapper=document.getElementsByClassName("slider-wrapper")[0];
 		 var sliderLong=document.getElementsByClassName("slider-long")[0];
+		 
 		 var slides=document.getElementsByClassName("slides");
 		 sliderLong.style.width=(100*slides.length)+'%';
 		 

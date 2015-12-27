@@ -1,7 +1,10 @@
-.tags-wrapper
+.header-navigation
 {
-	padding-top: 14px;
-	width:100%;
+	float:right;
+	
+	width:70%;
+	line-height: 28px;
+	padding-top: 37px;
 }
 .tags-wrapper ul li
 {

@@ -6,7 +6,6 @@ var num1=document.getElementsByClassName("counter-text-number")[0].innerHTML;
 var num2=document.getElementsByClassName("counter-text-number")[1].innerHTML;
 var num3=document.getElementsByClassName("counter-text-number")[2].innerHTML;
 var num4=document.getElementsByClassName("counter-text-number")[3].innerHTML;
-console.log(num1);
 
 
 		function isScrolledIntoView(el) {
@@ -21,7 +20,7 @@ console.log(num1);
 function move(){
 	var counter=0;
 	 var x=isScrolledIntoView(div1);
-   console.log(x);
+  
    if(x==true)
    {
    	var y=setInterval(increase,2);

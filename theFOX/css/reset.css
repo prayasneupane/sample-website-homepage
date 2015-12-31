@@ -56,3 +56,7 @@ table {
 }
 
 .clr{zoom:1; /*IE6&7*/}
+body
+{
+	font-family: 'Lato';
+}

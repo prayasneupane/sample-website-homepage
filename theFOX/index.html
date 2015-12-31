@@ -1,9 +1,11 @@
 <DOCTYPE html>
 	<head>
 		<title>theFOX</title>
-		 <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+		<!--  <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		  -->  <!--  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+ -->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" style="text/css" href="css/reset.css">
 		<link rel="stylesheet" style="text/css" href="css/layout.css">
 		<link rel="stylesheet" style="text/css" href="css/style.css">
@@ -36,51 +38,35 @@
 				<div class="slider-wrapper">
 					<div class="button-slider left" onclick="moveLeft()"><img alt="" src="images/button-left.png"/></div>
 					<div class="button-slider right" onclick="moveRight()"><img alt="" src="images/button-right.png"/></div>
-					<div class=" banner-Wrapper"></div>
+					<div class=" banner-Wrapper">
+						<img alt="" src="images/slider-banner.png"/>
+						<div class="banner-text-Wrapper">
+							<img alt="" src="images/banner-text.png"/>
+						</div>
+					</div>
+					
 					<div class="slider-long">
 						<div class="slides">
 							<img alt="#" src="images/img1.jpg"/>
 							
-								<div class="banner-text-Wrapper">
-									<p class="banner-text-top">WOULD YOU LIKE TO BE</p>
-									<span class="banner-text-middle"><img alt="#" src="images/banner-logo.png"/></span>
-									<p class="banner-text-bottom">WITH AMAZING THE FOX DESIGN</p>
-								</div>
-
+								
 						</div>	
 						<div class="slides">
-							<div class="banner-text-Wrapper">
-								<p class="banner-text-top">WOULD YOU LIKE TO BE</p>
-								<span class="banner-text-middle"><img alt="#" src="images/banner-logo.png"/></span>
-									<p class="banner-text-bottom">WITH AMAZING THE FOX DESIGN</p>
-							</div>
 							<img alt="#" src="images/img2.jpg"/>
 						</div>	
 				
 						<div class="slides">
 							<img alt="#" src="images/img3.jpg"/>
-							<div class="banner-text-Wrapper">
-								<p class="banner-text-top">WOULD YOU LIKE TO BE</p>
-								<span class="banner-text-middle"><img alt="#" src="images/banner-logo.png"/></span>
-									<p class="banner-text-bottom">WITH AMAZING THE FOX DESIGN</p>
-							</div>
+							
 						</div>
 						<div class="slides">
 							<img alt="#" src="images/img5.jpg"/>
-							<div class="banner-text-Wrapper">
-								<p class="banner-text-top">WOULD YOU LIKE TO BE</p>
-								<span class="banner-text-middle"><img alt="#" src="images/banner-logo.png"/></span>
-									<p class="banner-text-bottom">WITH AMAZING THE FOX DESIGN</p>
-							</div>
+							
 						</div>
 						
 						<div class="slides">
 							<img alt="#" src="images/img1.jpg"/>
-							<div class="banner-text-Wrapper">
-								<p class="banner-text-top">WOULD YOU LIKE TO BE</p>
-								<span class="banner-text-middle"><img alt="#" src="images/banner-logo.png"/></span>
-									<p class="banner-text-bottom">WITH AMAZING THE FOX DESIGN</p>
-							</div>
+							
 						</div>	
 							
 							
@@ -158,10 +144,10 @@
 							<div class="counter-text-number">754</div>
 							FEATURES ADDED</div>
 						<div class="counter-text third">
-							<div class="counter-text-number">4,000</div>
+							<div class="counter-text-number">4000</div>
 						TICKETS ANSWERED</div>
 						<div class="counter-text fourth">
-							<div class="counter-text-number">1,000</div>
+							<div class="counter-text-number">1000</div>
 							YOUTUBE SUBSCRIBERS</div>
 					</div>
 				</div>
@@ -338,6 +324,31 @@
 		 <script src="js/slider.js"></script>
 		 		 
 		<script src="js/counter.js"></script>
+		<script>
+			var div1=document.getElementsByClassName("counter-text-number")[0];
+			var div2=document.getElementsByClassName("counter-text-number")[1];
+			var div3=document.getElementsByClassName("counter-text-number")[2];
+			var div4=document.getElementsByClassName("counter-text-number")[3];
+			var num1=document.getElementsByClassName("counter-text-number")[0].innerHTML;
+			var num2=document.getElementsByClassName("counter-text-number")[1].innerHTML;
 
+			var num3=document.getElementsByClassName("counter-text-number")[2].innerHTML;
+			var num4=document.getElementsByClassName("counter-text-number")[3].innerHTML;
+			var counter1=new Counter(div1,num1);
+			var counter2=new Counter(div2,num2);
+			var counter3=new Counter(div3,num3);
+			var counter4=new Counter(div4,num4);
+			function testScroll(ev)
+				 {
+         	if (window.pageYOffset >= window.innerHeight) {
+            document.getElementsByClassName("menu-wrapper")[0].style.display = "none";
+        }
+        else {
+            document.getElementsByClassName("menu-wrapper")[0].style.display = "block";
+        }
+    }
+
+    window.onscroll = testScroll;
+		</script>
 	</body>
 	</html>

@@ -2,10 +2,49 @@
 {
 	float:right;
 	
-	width:70%;
-	line-height: 28px;
+	width:72.6962457337884%;
+	
 	padding-top: 37px;
 }
+.header-navigation ul li
+{
+	list-style-type: none;
+	
+	float:left;
+	padding-top: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	margin-right:3.286384976525822%; 
+	
+	
+	
+}
+ 
+.header-navigation ul li a
+{
+	text-decoration: none;
+	font-family: 'Lato ', sans-serif;
+
+	
+	font-size: 0.875em;
+	color:white;
+	line-height: 28px;
+	
+
+}
+.header-navigation ul li:hover 
+{
+	border:1px solid white;
+	border-radius: 5px;
+	padding-top: 0px;
+	padding-left: 9px;
+	padding-right: 9px;
+
+}
+
+
+
 .tags-wrapper ul li
 {
 	list-style-type: none;

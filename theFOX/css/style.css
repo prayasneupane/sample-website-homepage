@@ -8,24 +8,20 @@
 .button-slider
 {
 	position: absolute;
-	top:50%;
+	top:55.88888888888889%;
 	z-index: 6;
 	
 }
-.button-slider img
-{
-	height:50px;
-	width:50px;
-}
+
 .left
 {
 	
-	left:5%;
+	left:5.104166666666667%;
 }
 .right
 {
 	
-	right:5%;
+	right:5.104166666666667%;
 }
 .slider-long
 {
@@ -96,7 +92,11 @@ h2
 .header
 {
 	margin-left:16.48351648351648%;
-	color:solid black;
+	color: black;
+	padding-bottom: 22px;
+	font-weight: bold;
+	font-size: 1em;
+	letter-spacing: 1px;
 	
 }
 
@@ -110,15 +110,56 @@ h2
 }
 .text-wrapper
 {
-	padding-top: 20px;
+	
 	line-height: 24px;
 	font-size: 0.875em;
 	font-family: 'Lato';
 
 }
+.counter-text
+{	
+	text-align:center;
+	font-size: 1em;
+	font-weight: bold;
+	float:left;
+	width:100%;
+
+}
+.first
+{
+	width:26%;
+}
+.second
+{
+	width:24%;
+}
+.third
+{
+	width:25.83333333333333%;
+}
+.fourth
+{
+	width:24.16666666666667%;
+	
+}
+.counter-text-number
+{
+	width:100%;
+	padding-top: 54px;
+	padding-bottom: 8px;
+	padding-right: 9px;
+	font-size:2.25em; 
+	font-family: 'Lato';
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+
 .features-header
 {
 	padding-top: 77px;
+	font-size: 1em;
+	letter-spacing: 1px;
+	font-weight: bold;
 }
 .features-text
 {
@@ -128,6 +169,63 @@ h2
 	font-family: 'Lato';
 
 }
+.image-text-wrapper
+ {
+    position: absolute;
+    width: 100%;
+    top: 30.234234%;
+    left: 0px;
+     color: white;
+}
+
+
+
+.image-text-top {
+    font-family: "Lato";
+    font-size: 29px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.image-text-top-span
+ {
+    font-family: "Lato";
+    font-size: 31px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image-text-mid 
+{
+    font-family: "Lato";
+    font-size: 14px;
+    padding: 0px 35px 50px 35px;
+    text-align: center;
+}
+
+.image-text-purchase {
+	position:absolute;
+	top:53.79061371841155%;  
+	/*width:10.41666666666667%; */
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.image-text-purchase a {
+    padding: 19px 59px 24px 59px;
+    text-decoration: none;
+    font-family: "lato";
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    background: url(../images/image-button.png) no-repeat;
+   
+    color: #263b56;
+    display: inline-block;
+}
+
 .button
 {
 	padding-bottom: 69px;
@@ -187,32 +285,20 @@ a
 {
 	text-decoration: none;
 }
-.subscribe
-{
-	padding-top: 29px;
-	float:left;
-	width:45.33333333333333%;
 
-}
+
  .footer
 {
 	padding-top:99px;
 	padding-bottom: 21px;
 	font-size: 1.4375em;
 	color:#dcdddf;
-	
+
 	
 	
 
 }
-.title-blog
-{
-	padding-top: 15px;
-	width: 90.66666666666667%;
-	
-	float:left;
-	border-bottom: 1px solid #25323b;
-}
+
 .title
 {
 	font-size: 1em;
@@ -249,12 +335,7 @@ a
 	padding-bottom: 9px;
 	line-height: 24px;
 }
-.contact
-{
-	padding-top: 20px;
-	padding-bottom: 13px;
-	border-bottom: 1px solid #25323b;
-}
+
 .contact-title
 {
 	font-size: 1.4375em;

@@ -31,7 +31,7 @@ function Counter(element,num)
 				if(count>=num) 
 				{
 					
-					that.el.innerHTML=num;
+					that.el.innerHTML=formatting(num);
 					
 					clearInterval(y);
 				}
@@ -41,4 +41,7 @@ function Counter(element,num)
   
 	}
 	var x=setInterval(that.movecounter,20);
+	var formatting = function (val) {
+        return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
 }

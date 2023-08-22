@@ -1,2 +1,2 @@
 # sample-website-homepage
-- Sample Webiste developed from Scratch
+- Sample Website developed from Scratch
